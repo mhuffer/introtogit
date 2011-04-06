@@ -40,8 +40,6 @@
 		                <h2 class="entry-title">FW/1 Skeleton - #rc.title#</h2>
 		            </hgroup>
 		            <p class="entry-summary">
-		            	Powered by FW/1 version #variables.framework.version#.<br />
-						This request took #getTickCount() - rc.startTime#ms.
 		            </p>
 		            <br /><hr /><br />
 		        </article>
@@ -65,7 +63,8 @@
 		        Copyright <a href="http://stevegood.org/" target="_blank">Steve Good</a> &copy; #year(now())#
 		    </section>
 		    <section id="footer-2">
-
+		            	Powered by FW/1 version #variables.framework.version#.<br />
+						This request took #getTickCount() - rc.startTime#ms.
 		    </section>
 		</footer>
 

@@ -3,15 +3,15 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
- 
+
 		<title>Intro to Git :: DFW CFML User Group</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
-		
+
 		<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<link rel="stylesheet" type="text/css" href="iehacks.css" />
 		<![endif]-->
-		 
+
 		<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="ie67hacks.css" />
 		<![endif]-->
@@ -20,7 +20,7 @@
 		<div>
 		    &nbsp;
 		</div>
- 
+
 		<header>
 		    <div id="logo">
 		        <a href="/"><img src="images/dfwcfml-logo-long.png" alt="Logo" /></a>
@@ -32,7 +32,7 @@
 		        </ul>
 		    </nav>
 		</header>
- 
+
 		<div id="content">
 		    <section class="hfeed">
 		        <article class="hentry">
@@ -46,6 +46,9 @@
 		            <br /><hr /><br />
 		        </article>
 		    </section>
+		    <article>
+		    	#body#
+		    </article>
 		    <aside>
 		        <h2>Linkage</h2>
 		        <ul>
@@ -62,10 +65,10 @@
 		        Copyright <a href="http://stevegood.org/" target="_blank">Steve Good</a> &copy; #year(now())#
 		    </section>
 		    <section id="footer-2">
- 
+
 		    </section>
 		</footer>
- 
+
 	</body>
 </html>
 </cfoutput>

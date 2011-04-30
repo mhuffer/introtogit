@@ -1,3 +1,4 @@
+this is a pretty good readme file ;)
 # Intro to Git
 
 This is the sample project used in the 4/5/2011 hands on intro to Git.
